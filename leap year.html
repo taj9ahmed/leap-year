@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>Leap Year</h1>
+  <!--<form action="">-->
+  <!--  <input type="text" name="" id="input">-->
+  <!--  <input type="button" onclick="filter_duplicates()" value ="filter duplicates" >-->
+  <!--</form>-->
+  <div id="output"></div>
+  
+   <script>
+    // var arr = prompt("enter input");
+    //   arr = arr.split();
+    var yr_first = +prompt("enter first year");
+    var yr_last = +prompt("enter last year");
+    // console.log(typeof(yr_first));
+    var yr = yr_first;
+    for ( let ndx = 0; ndx < (yr_last - yr_first); ndx++) {
+      if ( yr % 4 == 0) {
+        console.log (" year "+ yr + " is a leap year.");
+        
+      }yr++;
+    }
+  </script> 
+</body>
+</html>
